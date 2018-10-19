@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,8 +7,10 @@ namespace lab08_manhattan.classes
 {
     class Feature
     {
-        public string type { get; set; }
-        public Geometry geometry { get; set; }
-        public Properties properties { get; set; }
+        [JsonProperty("type")]
+        public string Type { get; set; }
+
+        [JsonProperty("properties")]
+        public Properties Properties { get; set; }
     }
 }
