@@ -8,24 +8,24 @@ namespace lab08_manhattan.classes
     class Properties
     {
         [JsonProperty("zip")]
-        public string zip { get; set; }
+        public string Zip { get; set; }
 
         [JsonProperty("city")]
-        public string city { get; set; }
+        public string City { get; set; }
 
         [JsonProperty("state")]
-        public string state { get; set; }
+        public string State { get; set; }
 
         [JsonProperty("address")]
-        public string address { get; set; }
+        public string Address { get; set; }
 
         [JsonProperty("borough")]
-        public string borough { get; set; }
+        public string Borough { get; set; }
 
         [JsonProperty("neighborhood")]
-        public string neighborhood { get; set; }
+        public string Neighborhood { get; set; }
 
         [JsonProperty("county")]
-        public string county { get; set; }
+        public string County { get; set; }
     }
 }

@@ -8,12 +8,9 @@ namespace lab08_manhattan.classes
     class Feature
     {
         [JsonProperty("type")]
-        public string type { get; set; }
-
-        [JsonProperty("geometry")]
-        public Geometry geometry { get; set; }
+        public string Type { get; set; }
 
         [JsonProperty("properties")]
-        public Properties properties { get; set; }
+        public Properties Properties { get; set; }
     }
 }
