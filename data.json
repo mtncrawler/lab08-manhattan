@@ -1,5 +1,4 @@
 ﻿{
-  "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
@@ -2353,5 +2352,6 @@
         "county": "New York County"
       }
     }
-  ]
-}᰼
+  ],
+  "type": "FeatureCollection"
+}
