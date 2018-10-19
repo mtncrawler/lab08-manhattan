@@ -7,3 +7,17 @@ Provided a JSON file that contains a data set of location information for proper
 - Remove the Duplicates
 - Rewrite the queries from above, and consolidate all into one single query.
 - Rewrite at least one of these questions only using the opposing method (example: Use LINQ instead of a Lambda and vice versa.)
+
+![Display all Boroughs](assets/lab8.png "Display all screenshot")
+![Remove No Name Boroughs](assets/lab8a.png "Remove no names screenshot")
+![Remove Duplicates](assets/lab8b.png "Remove duplicates screenshot")
+![Single Query](assets/lab8c.png "Single query screenshot")
+![Lambda Query](assets/lab8d.png "Lambda query screenshot")
+
+
+## Load Application
+
+1. in terminal: git clone https://github.com/mtncrawler/lab08-manhattan.git
+2. open lab08-manhattan.sln file
+3. run without debugging
+4. enjoy!

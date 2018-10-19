@@ -54,7 +54,7 @@ namespace lab08_manhattan
             }
 
             Console.WriteLine();
-            Console.WriteLine("2. Remove duplicate hoods: ");
+            Console.WriteLine("3. Remove duplicate hoods: ");
 
             var removeDup = (from hood in allHoods
                              orderby hood
@@ -66,7 +66,7 @@ namespace lab08_manhattan
             }
 
             Console.WriteLine();
-            Console.WriteLine("3. Now all in one query: ");
+            Console.WriteLine("4. Now all in one query: ");
 
             var singleQuery = (from hood in boroughs
                                orderby hood
@@ -79,7 +79,7 @@ namespace lab08_manhattan
             }
 
             Console.WriteLine();
-            Console.WriteLine("3. Now with a lambda: ");
+            Console.WriteLine("5. Now with a lambda: ");
 
             var lambda = allHoods.Where(hood => hood != "").Distinct().OrderBy(hood => hood);
 
